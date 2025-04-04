@@ -4,7 +4,6 @@ from tkinter import ttk
 
 window = tk.Tk()
 window.title('T-Town Veterinary Clinic Database')
-window.geometry('700x300')
 dogpic = PhotoImage(file='dog.png')
 
 piclbl = tk.Label(window, image=dogpic, borderwidth=3)
